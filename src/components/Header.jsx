@@ -82,14 +82,13 @@ const Header = () => {
           </nav>
         </div>
         <div className="hidden md:block">
-          <div className="flex gap-3 justify-between items-center">
+          <div className="flex gap-4 justify-between items-center">
             <div className=" font-bold">
-              <a  className="text-[#0000FF]" href="#">
-                Try Live 12 for free
-              </a>
+              
+              <NavLink className="text-[#0000FF]" to="#">Try Live 12 for free</NavLink>
             </div>
             <nav className="text-sm font-semi-bold">
-              <a href="login">Login or register</a>
+            <NavLink to="login">Login or register</NavLink>
             </nav>
           </div>
         </div>
@@ -124,12 +123,11 @@ const Header = () => {
           <NavLink to="more">More</NavLink>
           <div className="flex-col md:hidden justify-between items-center">
             <div className=" font-bold pb-2">
-              <a className="text-white " href="#">
-                Try Live 12 for free
-              </a>
+            <NavLink className="text-[#0000FF]" to="#">Try Live 12 for free</NavLink>
             </div>
             <nav className="text-sm font-semi-bold">
-              <a href="login">Login or register</a>
+              
+              <NavLink to="login">Login or register</NavLink>
             </nav>
           </div>
           <div className="flex-col justify-between items-center py-4 gap-6">
