@@ -4,7 +4,7 @@ import { AiOutlineRight } from "react-icons/ai";
 const GridOne = () => {
   return (
     <div className="py-8 sm:px-28 px-8">
-      <div className=" grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className="text-left ">
           <a href="">
             <img

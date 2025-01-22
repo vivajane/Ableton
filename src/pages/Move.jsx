@@ -6,7 +6,7 @@ const Move = () => {
         {
             id: 1,
             name: "Overview",
-            link: "overview"
+            link: "."
 
         },
         {
@@ -18,7 +18,7 @@ const Move = () => {
         {
             id: 3,
             name: "Learn more",
-            link: "more"
+            link: "learn"
 
         },
         {
@@ -28,14 +28,17 @@ const Move = () => {
 
         },
     ]
+
+
+    
   return (
-    <div className="px-8 font-semibold">
-        <nav>
+    <div className=" font-semibold">
+        <nav className='px-8'>
             <ul className='flex gap-4'>
                 {
                     items.map((item) => (
                         <li className='text-xs font-bold py-6' key={item.id}>
-                            <ListItems name={item.name} link={item.link}/>
+                            <ListItems name={item.name} link={item.link} />
                         </li>
 
                     ))
@@ -51,10 +54,10 @@ const Move = () => {
 
 export default Move
 
-const ListItems = ({name, link}) => {
+const ListItems = (item) => {
     return <div>
-        <NavLink className={({isActive}) => (isActive ? "text-[#0000FF]" : "text-gray-600")} to={link}>
-            {name}
+        <NavLink className={({isActive}) => (isActive ? "text-[#FF764D]" : "text-gray-600")} to={item.link} end={item.link === "."}>
+            {item.name}
         </NavLink>
     </div>
 }

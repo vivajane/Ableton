@@ -8,8 +8,6 @@ const Footer = () => {
     <div>
         <AbGrid/>
         <MainFooter/>
-      
-      
     </div>
   )
 }

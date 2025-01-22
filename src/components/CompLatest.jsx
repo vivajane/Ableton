@@ -7,7 +7,7 @@ const CompLatest = () => {
     <div className="pt-8 md:pt-28 sm:px-28 px-8 text-left">
       <div className="sm:flex justify-between items-center ">
         <div>
-          <h1 className="md:text-4xl text-sm font-semibold block md:hidden">
+          <h1 className="md:text-4xl text-sm font-semibold sm:block hidden">
             The latest from Ableton
           </h1>
         </div>
@@ -25,7 +25,7 @@ const CompLatest = () => {
         <div className="text-center mx-auto lg:hidden">
           <div className=" items-center gap-2 hidden sm:block ">
             <div className="flex items-center">
-              <h1 className="">See all Posts</h1>
+              <h1 className="text-[#0000FF] text-semibold">See all Posts</h1>
               <span>
                 <AiOutlineRight />
               </span>
