@@ -58,7 +58,7 @@ const AbGrid = () => {
 
   return (
     <div className="sm:px-28 px-8">
-      <h1 className="sm:text-[55px] text-[30px]  pt-1 font-semibold text-left ">Ableton</h1>
+      <h1 className="sm:text-[55px] text-[30px] text- pt-1 font-semibold text-left ">Ableton</h1>
       <div className="lg:grid text-xs sm:text-base block lg:grid-cols-3 sm:py-8 py-4 text-left gap-8">
       <ul className="sm:hidden block">
           <li>
