@@ -1,4 +1,3 @@
-import React from "react";
 
 const Sec = () => {
   return (
@@ -6,9 +5,9 @@ const Sec = () => {
       <div className="px-8 sm:px-28">
         <h1 className="text-5xl font-semibold pb-10">Trust your instincts</h1>
         <p className="text-lg font-normal">
-          Move helps you capture your best ideas whenever they appear. <br />{" "}
-          Pick it up, find new sounds and make fast decisions about what <br />{" "}
-          feels right in the moment. Follow your intuition wherever it leads{" "}
+          Move helps you capture your best ideas whenever they appear. <br />
+          Pick it up, find new sounds and make fast decisions about what <br />
+          feels right in the moment. Follow your intuition wherever it leads
           <br /> you.
         </p>
       </div>
@@ -22,7 +21,7 @@ const Sec = () => {
         <div className="w-1/3 pr-28">
           <h1 className="text-2xl  font-semibold pb-6">Standalone and portable</h1>
           <p className="font-normal">
-            Move’s built-in processor, speaker and microphone make it the ideal
+            Moves built-in processor, speaker and microphone make it the ideal
             companion for on-the-go music creation, and its battery gives you up
             to four hours of use on a single charge.
           </p>
