@@ -16,7 +16,7 @@ const MovePage = () => {
         <Route path="/" element={<Move />}>
         <Route index element= {<Overview  /> }/>
           <Route path="overview" element={<Overview  />} />
-          <Route path="learn" element={<Moree />} />
+          <Route path="learn" element={<Moree />}/>
           <Route path="buy" element={<Buy />} />
           <Route path="specs" element={<Specs />} />
         </Route>
