@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Login from './pages/Login';
 import MovePage from './pages/MovePage';
+import ShopPage from './pages/ShopPage';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="shop" element={<Shop />} />
+          <Route path="shop/*" element={<ShopPage/>} />
           <Route path="login" element={<Login />} />
           <Route path="move/*" element={<MovePage />} />
         </Routes>
